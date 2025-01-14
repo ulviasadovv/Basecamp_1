@@ -25,10 +25,10 @@
             string input = Console.ReadLine();
             string[] parts = input.Split();
 
-            double k = double.Parse(parts[0]);
-            double m = double.Parse(parts[1]);
-            double n = double.Parse(parts[2]);
-            double d = double.Parse(parts[3]);
+            int k = int.Parse(parts[0]);
+            int m = int.Parse(parts[1]);
+            int n = int.Parse(parts[2]);
+            int d = int.Parse(parts[3]);
 
             double s = 0;
 
